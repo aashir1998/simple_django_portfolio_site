@@ -1,1 +1,103 @@
-<h3>HI I AM AASHIR</h3>
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AASHIR AHMED</title>
+    <link
+      href="{% static '/css/main.css'  %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body h-100 border-info" id="profile-wrapper">
+            <img id="profile-pic" src="{% static 'images/myimage.jpg' %}" />
+            <hr />
+            <h4>Hi I'm Aashir!</h4>
+            <p>I love to learn and code</p>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="card card-body h-100 border-info">
+            <h4>My First Job</h4>
+            <hr />
+            <p>
+              I started working as an SQA Engineer, however I was always
+              interested in programming and wanted to become a full stack
+              developer.
+            </p>
+
+            <p>I am currently learning Django</p>
+
+            <p>I hope to become a full stack developer soon</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>My Experience</h5>
+            <hr />
+            <p>SQA Engineer at Arbisoft</p>
+            <p>
+              Tested multiple modules of the application, wrote automation
+              script using cypress, performed regression tests and API testing
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>What I Know</h5>
+            <hr />
+            <p>
+              Python, Django, HTML/CSS, JavaScript, Postgres, Cypress for
+              automation, Regression Testing, API testing
+            </p>
+            <p>PS: Working on django projects.</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>How I Learn</h5>
+            <hr />
+            <p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+            <p>
+              I can learn just about anything by having a final product to tear
+              apart piece by piece. I break the code where I need to figure out
+              why things work the way they do. Documentation is just a
+              reference.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-body h-100">
+            <h5>My Short Term Goals</h5>
+            <hr />
+            <p>Build as many projects as I can</p>
+            <p>I want to master Django and React</p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>
